@@ -1,0 +1,15 @@
+.display {
+  height: 600px;
+}
+
+.act:nth-child(1) {
+  width: 50%;
+}
+.act:nth-child(2) {
+  justify-content: flex-start;
+}
+
+table {
+  width: 830px;
+  height: 530px;
+}

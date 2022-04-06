@@ -1,0 +1,62 @@
+.display {
+  overflow: hidden;
+  height: 600px;
+}
+
+.act:nth-child(1) {
+  width: 50%;
+}
+.act:nth-child(2) {
+  justify-content: flex-start;
+}
+  
+table {
+  width: 830px;
+  height: 560px;
+}
+
+td {
+  border-bottom: 1px solid var(--gray-color);
+}
+
+#btn-JK {
+  margin-right: 8px;
+}
+
+#btn-JK:nth-child(2) {
+  margin-left: 12px;
+}
+
+#lang {
+  margin-right: 8px;
+}
+#lang:nth-child(2) {
+  margin-left: 12px;
+}
+#lang:nth-child(3) {
+  margin-left: 12px;
+}
+
+#inputUser{
+  width: 500px;
+  font-weight: bold;
+}
+
+#inputUser-pesan {
+  width: 500px;
+}
+
+.btn-submit {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  background: var(--main-color);
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  font-weight: bold;
+}

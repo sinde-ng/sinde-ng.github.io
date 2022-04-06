@@ -1,0 +1,52 @@
+.display {
+  height: 600px;
+}
+
+.act:nth-child(1) {
+  width: 50%;
+}
+.act:nth-child(2) {
+  justify-content: flex-start;
+}
+
+table {
+  background: var(--main-color);
+}
+
+table:nth-child(1) {
+  position: fixed;
+  width: 830px;
+  height: 20px;
+}
+
+table:nth-child(2) {
+  position: absolute;
+  width: 830px;
+  height: 35px;
+  border-radius: 0 0 20px 20px;
+  margin-top: 520px;
+}
+
+table:nth-child(3) {
+  margin-top: 80px;
+  width: 830px;
+  height: 800px;
+}
+
+td {
+  background: var(--primary-color);
+}
+
+.info {
+  border: 1px solid var(--primary-color);
+  padding: 5px;
+  border-bottom: 1px solid var(--primary-color);
+  background: var(--main-color);
+  color: var(--primary-color);
+}
+
+.KET {
+  font-weight: bolder;
+  text-align: center;
+  background: var(--gray-color);
+}

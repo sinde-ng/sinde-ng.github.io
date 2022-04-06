@@ -1,0 +1,40 @@
+.act:nth-child(1) {
+  width: 50%;
+}
+.act:nth-child(2) {
+  justify-content: flex-start;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 830px;
+  height: 600px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--main-color);
+}
+
+li:hover {
+  background: var(--main-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}

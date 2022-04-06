@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Naufal Yafi | Formulir</title>
+</head>
+<body onload="move('draggable')">
+    <div class="backHome"><a href="../../index.html">Kembali</a></div>
+    <div class="container" id="draggable">
+        <div class="tab">
+            <div class="act">
+                <div class="btn"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+            </div>
+            <div class="act"><i>tugas1 pertemuan 4 - membuat form</i></div>
+        </div>
+        <div class="display">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="namaUser" id="inputUser"></td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td><input type="text" name="nimUser" id="inputUser"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="alamatUser" id="inputUser"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" value="l" id="btn-JK">Laki-Laki
+                        <input type="radio" value="p" id="btn-JK">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bahasa yang dikuasai</td>
+                    <td>
+                        <input type="checkbox" name="jav" id="lang">Java
+                        <input type="checkbox" name="cpp" id="lang">C++
+                        <input type="checkbox" name="py" id="lang">Python
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kota Asal</td>
+                    <td>
+                        <select name="kota-asal" id="kota">
+                            <option value="pkl">Pekalongan</option>
+                            <option value="btg">Batang</option>
+                            <option value="tgl">Tegal</option>
+                            <option value="pml">Pemalang</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pesan Anda</td>
+                    <td>
+                        <textarea name="pesan" id="inputUser-pesan" cols="30" rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="kirim" class="btn-submit">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="identitas">
+        <div class="NAMA"></div>
+        <div class="NIM"></div>
+        <div class="KELAS"></div>
+    </div>
+    <div class="alert"></div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
